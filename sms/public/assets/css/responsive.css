@@ -1,0 +1,633 @@
+@media screen and (max-width: 1440px) {
+  /* ---------  login page css -------- */
+  .login-section .right-design .login-info img.woman-img {
+    height: 80%;
+  }
+  .login-section .signin-form .rights {
+    margin-top: 20px;
+  }
+  /* ---------  login page css end -------- */
+  /* ---------  Dashboard css -------- */
+
+  /* ---------  Dashboard css end -------- */
+}
+@media screen and (max-width: 1199px) {
+  /* ---------  login page css -------- */
+  .login-section .right-design .login-info p {
+    font-size: 28px;
+    line-height: 40px;
+    max-width: 240px;
+    margin-bottom: 0;
+  }
+  .login-section .right-design .login-info p::before {
+    right: -100px;
+  }
+  .login-section .right-design .login-info a {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .login-section .right-design .login-info img.woman-img {
+    height: 85%;
+  }
+  /* ---------  login page css end -------- */
+  /* ---------  Register page css -------- */
+  .register-section .user-register .register-form span.line::before {
+    left: -175px;
+    right: -175px;
+  }
+  /* ---------  Register page css end -------- */
+  /* ---------  Dashboard css -------- */
+  .dashboard-section .campaign-carousal {
+    margin: 0px 40px 40px;
+  }
+  .site-wrapper .campaigns-contacts {
+    margin: 40px 40px;
+  }
+  /* ---------  Dashboard css end -------- */
+}
+@media screen and (max-width: 1024px) {
+  /* ---------  Dashboard css -------- */
+  .site-header .hamburger-menu {
+    display: block;
+  }
+  .side-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -280px;
+    transition: 0.5s linear;
+  }
+  .menu-open .side-nav {
+    left: 0;
+    transition: 0.5s linear;
+    z-index: 2;
+  }
+  .main-wrapper.fixed-nav {
+    width: 100%;
+    position: relative;
+    transform-origin: left;
+    transition: 0.5s linear;
+    left: 0;
+  }
+  .menu-open .main-wrapper.fixed-nav {
+    left: 280px;
+    transform-origin: left;
+    transition: 0.5s linear;
+  }
+  .site-header {
+    justify-content: space-around;
+  }
+  /* ---------  Dashboard css end -------- */
+  /* --------------- campaigns page -------------  */
+  .campaigns-listbar .hamburger-menu {
+    display: block;
+  }
+  .campaigns-listbar .hamburger-menu i {
+    font-size: 18px;
+  }
+  .campaigns-listbar .list-header {
+    margin-left: 15px;
+  }
+  /* --------------- campaigns page end -------------  */
+}
+@media screen and (max-width: 991px) {
+  /* ---------  login page css -------- */
+  .login-section .right-design {
+    display: none;
+  }
+  .login-section .user-login {
+    padding: 30px 0 0;
+    text-align: -webkit-center;
+  }
+  .login-section .signin-form .select-option {
+    justify-content: center;
+    margin: 0 0 5px 50px;
+  }
+  .login-section .signin-form .login-email .form-group span,
+  .login-section .signin-form .login-phone .form-group span {
+    padding: 5px 0px 10px 50px;
+  }
+  /* ---------  login page css end -------- */
+  /* ---------  Register page css -------- */
+  .register-section .right-design {
+    display: none;
+  }
+  .register-section .user-register .direct-login {
+    text-align: center;
+  }
+  /* ---------  Register page css end -------- */
+  /* ---------  Dashboard css -------- */
+  .campaigns-contacts .add-campaigns {
+    margin: 20px 0 20px 0;
+  }
+  .campaigns-contacts .add-contacts {
+    margin: 20px 0 20px 0;
+  }
+  /* ---------  Dashboard css end -------- */
+}
+@media screen and (max-width: 767px) {
+  .register-section .user-register .direct-login h3 {
+    font-size: 30px;
+  }
+  .register-section .user-register .direct-login a {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .register-section .user-register .direct-login button.btn.button.btn-outline {
+    font-size: 16px;
+    min-width: 350px;
+    line-height: 26px;
+    margin: 5px 0;
+    padding: 5px 0;
+  }
+  .register-section
+    .user-register
+    .direct-login
+    .btn-sign-up
+    button.btn.button.btn-outline
+    img {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+  }
+  .register-section
+    .user-register
+    .register-form
+    .form-row.fill-data
+    .form-group {
+    margin-bottom: 22px;
+    padding-right: 15px;
+  }
+  .register-section
+    .user-register
+    .register-form
+    .form-row.fill-data
+    .form-group
+    label {
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .register-section
+    .user-register
+    .register-form
+    .form-row.fill-data
+    .form-group
+    input.form-control::placeholder {
+    font-size: 14px;
+    padding: 2px 0;
+  }
+  .register-section
+    .user-register
+    .register-form
+    .form-row.fill-data
+    .form-group
+    .btn.btn-primary {
+    min-width: 340px;
+    font-size: 16px;
+    padding: 0;
+  }
+  .register-section .user-register .rights {
+    margin-top: 0px;
+  }
+  .register-section .user-register .register-form span.line {
+    font-size: 16px;
+  }
+  .register-section .user-register .register-form span.line::before {
+    left: -150px;
+    right: -150px;
+    top: 12px;
+  }
+  .register-section
+    .user-register
+    .register-form
+    .form-row.fill-data
+    .form-group
+    input.form-control {
+    padding: 6px 10px;
+  }
+  .register-section .user-register .register-form .form-row.fill-data {
+    margin: 0 auto;
+    max-width: 350px;
+  }
+  .register-section .user-register .rights span {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  /* ---------  Dashboard css -------- */
+  .site-header .hamburger-menu i {
+    font-size: 20px;
+  }
+  .site-header .accountent-info .accountent-img {
+    width: 60px;
+    height: 60px;
+  }
+  .site-header .accountent-info .accountent-detail h5 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .site-header .accountent-info .accountent-detail h5 i {
+    font-size: 12px;
+  }
+  .site-header .accountent-info .accountent-detail span {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .site-header .other-setting a span {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .site-header .other-setting a img {
+    width: 30px;
+    height: 30px;
+  }
+  .dashboard-section .campaign-carousal .carousal-header {
+    padding: 20px;
+  }
+  .dashboard-section .campaign-carousal .carousal-header h5 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .dashboard-section
+    .campaign-carousal
+    .carousal-items
+    .campaign-item
+    .item-header
+    h6 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .dashboard-section
+    .campaign-carousal
+    .carousal-items
+    .campaign-item
+    .item-header
+    i {
+    font-size: 18px;
+  }
+  .campaigns-contacts .add-campaigns .campaigns-header,
+  .campaigns-contacts .add-contacts .contacts-header {
+    padding: 22px 30px 22px 30px;
+  }
+  .campaigns-contacts .add-campaigns .campaigns-header h5,
+  .campaigns-contacts .add-contacts .contacts-header h5 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  /* ---------  Dashboard css end -------- */
+}
+@media screen and (max-width: 640px) {
+  .site-header {
+    padding: 30px 15px 20px;
+  }
+  .site-header .other-setting a:first-child {
+    width: 100%;
+  }
+  .site-header .other-setting {
+    text-align: right;
+    line-height: 0;
+  }
+  .site-header .other-setting a {
+    margin: 0;
+  }
+  .dashboard-section {
+    margin-top: 40px;
+  }
+  .dashboard-section .campaign-carousal {
+    margin: 0px 20px 40px;
+  }
+  .reset-password-section form,
+  .verification-section form,
+  .renew-password-section form {
+    max-width: 380px;
+  }
+  .reset-password-section form h3,
+  .verification-section form h3,
+  .renew-password-section form h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .dashboard-section
+    .campaign-carousal
+    .carousal-items
+    .campaign-item
+    .show-status
+    h6,
+  .dashboard-section
+    .campaign-carousal
+    .carousal-items
+    .campaign-item
+    .show-deadline
+    h6,
+  .dashboard-section
+    .campaign-carousal
+    .carousal-items
+    .campaign-item
+    .show-priority-level
+    h6 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .dashboard-section
+    .campaign-carousal
+    .carousal-items
+    .campaign-item
+    .show-status
+    span,
+  .dashboard-section
+    .campaign-carousal
+    .carousal-items
+    .campaign-item
+    .show-deadline
+    span,
+  .dashboard-section
+    .campaign-carousal
+    .carousal-items
+    .campaign-item
+    .show-status
+    span {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .dashboard-section
+    .campaign-carousal
+    .carousal-items
+    .campaign-item
+    .user
+    img {
+    max-width: 80%;
+  }
+  .site-header .other-setting a img {
+    width: 25px;
+    height: 25px;
+  }
+  .site-header .other-setting a:last-child img {
+    padding: 5px 3px 0 3px;
+  }
+  .site-header .accountent-info {
+    padding: 0 0 0 5px;
+    width: 100%;
+    justify-content: center;
+  }
+  .site-header {
+    justify-content: unset;
+  }
+  .site-header .accountent-info .accountent-img {
+    width: 50px;
+    height: 50px;
+  }
+  .site-header .accountent-info .accountent-detail h5 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .site-header .accountent-info .accountent-img {
+    margin-right: 8px;
+  }
+  .site-header .other-setting a span {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .dashboard-section .campaign-carousal {
+    margin: 0px 15px 40px;
+  }
+  .dashboard-section .campaign-carousal .carousal-items {
+    padding: 24px 15px 30px;
+  }
+  .dashboard-section .campaign-carousal .carousal-items .campaign-item {
+    margin: 0 10px;
+  }
+  .dashboard-section .campaign-carousal .carousal-items .campaign-item {
+    min-width: 320px;
+    width: 320px;
+  }
+  .dashboard-section
+    .campaign-carousal
+    .carousal-items
+    .campaign-item
+    .item-header {
+    padding: 16px 20px;
+  }
+  .dashboard-section
+    .campaign-carousal
+    .carousal-items
+    .campaign-item
+    .item-header
+    h6 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .dashboard-section
+    .campaign-carousal
+    .carousal-items
+    .campaign-item
+    .item-header
+    i {
+    font-size: 15px;
+  }
+  .dashboard-section .campaign-carousal .carousal-items .campaign-item .space {
+    padding: 15px;
+  }
+  .dashboard-section .campaign-carousal .carousal-header {
+    padding: 15px;
+  }
+  .dashboard-section .campaign-carousal .carousal-header h5 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .site-wrapper .campaigns-contacts {
+    margin: 15px;
+  }
+  .campaigns-contacts .add-campaigns .campaigns-header,
+  .campaigns-contacts .add-contacts .contacts-header {
+    padding: 15px;
+  }
+  .campaigns-contacts .add-campaigns .campaigns-header h5,
+  .campaigns-contacts .add-contacts .contacts-header h5 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 425px) {
+  /* ---------  login page css -------- */
+  .login-section .direct-login h3 {
+    font-size: 30px;
+  }
+  .login-section .direct-login h3 img {
+    width: 20px;
+    height: 30px;
+  }
+  .login-section .direct-login span {
+    font-size: 16px;
+  }
+  .login-section .direct-login .btn-login button.btn-outline {
+    font-size: 16px;
+    min-width: 320px;
+  }
+  .login-section .signin-form span.line {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  .login-section .signin-form .select-option .form-check label {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .login-section .signin-form .select-option {
+    margin: 0 0 0 50px;
+  }
+  .login-section .signin-form .login-email .form-group label,
+  .login-section .signin-form .login-phone .form-group label {
+    font-size: 16px;
+  }
+  .login-section .signin-form .login-email .form-group input,
+  .login-section .signin-form .login-phone .form-group input {
+    max-width: 320px;
+    padding: 8px 20px;
+  }
+  .login-section .signin-form .login-email .form-group input::placeholder,
+  .login-section .signin-form .login-phone .form-group input::placeholder {
+    font-size: 13px;
+  }
+  .login-section .signin-form .login-email .form-group span,
+  .login-section .signin-form .login-phone .form-group span {
+    font-size: 15px;
+    line-height: 22px;
+    text-align: right;
+    padding-right: 40px;
+  }
+  .login-section .signin-form .login-email .form-group .button.btn-primary,
+  .login-section .signin-form .login-phone .form-group .button.btn-primary {
+    min-width: 320px;
+  }
+  .login-section .signin-form .rights {
+    margin-top: 13px;
+  }
+  .login-section .signin-form .rights span {
+    font-size: 13px;
+  }
+  /* ---------  login page css end -------- */
+  /* ---------  Register page css -------- */
+  .register-section .user-register .register-form span.line::before {
+    left: -130px;
+    right: -130px;
+  }
+  /* ---------  Register page css end -------- */
+  /* ---------  Dashboard css -------- */
+  .site-header {
+    padding: 20px 10px;
+  }
+  .campaigns-contacts .add-campaigns .campaigns-info p,
+  .campaigns-contacts .add-contacts .contacts-info p,
+  .campaigns-contacts .add-contacts .contacts-info .contacts-remove a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .campaigns-contacts .add-campaigns .campaigns-info,
+  .campaigns-contacts .add-contacts .contacts-info {
+    padding: 20px;
+  }
+  .campaigns-contacts .add-campaigns {
+    margin: 10px 0 20px 0;
+  }
+  /* ---------  Dashboard css end -------- */
+  .reset-password-section form,
+  .verification-section form,
+  .renew-password-section form {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* ---------  login page css -------- */
+  .login-section .signin-form .select-option .form-check {
+    margin-right: 25px;
+  }
+  /* ---------  login page css end -------- */
+  /* ---------  Dashboard css -------- */
+  .site-header .accountent-info .accountent-detail h5 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .site-header .accountent-info .accountent-detail h5 i {
+    font-size: 10px;
+    margin-left: 0;
+  }
+  .site-header .accountent-info .accountent-detail span {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .dashboard-section .campaign-carousal .carousal-items .campaign-item {
+    min-width: 270px;
+    width: 270px;
+  }
+  /* ---------  Dashboard css end -------- */
+}
+@media screen and (max-width: 320px) {
+  /* ---------  login page css -------- */
+  .login-section .direct-login .btn-login button.btn-outline {
+    font-size: 14px;
+    min-width: 280px;
+  }
+  .login-section .signin-form .login-email .form-group input,
+  .login-section .signin-form .login-phone .form-group input {
+    max-width: 280px;
+    padding: 7px 20px;
+  }
+  .login-section .signin-form .login-email .form-group .button.btn-primary,
+  .login-section .signin-form .login-phone .form-group .button.btn-primary {
+    min-width: 280px;
+  }
+  .login-section .signin-form .select-option {
+    margin: 0 0 0 20px;
+  }
+  /* ---------  login page css end -------- */
+  /* ---------  Register page css -------- */
+  .register-section .user-register .direct-login button.btn.button.btn-outline {
+    font-size: 15px;
+    min-width: 280px;
+    line-height: 24px;
+    margin: 5px 0;
+  }
+  .register-section .user-register .register-form span.line::before {
+    left: -100px;
+    right: -100px;
+  }
+  .register-section .user-register .register-form .form-row.fill-data {
+    max-width: 300px;
+  }
+  .register-section
+    .user-register
+    .register-form
+    .form-row.fill-data
+    .form-group
+    .btn.btn-primary {
+    min-width: 200px;
+    font-size: 14px;
+  }
+  .register-section .user-register .rights span {
+    font-size: 12px;
+  }
+  /* ---------  Register page css end -------- */
+  /* ---------  Dashboard css -------- */
+  .site-header .hamburger-menu i {
+    font-size: 16px;
+  }
+  .site-header .other-setting a span {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .site-header .other-setting a:last-child img {
+    padding: 3px 0px 0 0px;
+  }
+  .site-header .other-setting a img {
+    width: 22px;
+    height: 22px;
+    padding: 2px;
+  }
+  .dashboard-section .campaign-carousal .carousal-items .campaign-item {
+    min-width: 250px;
+    width: 250px;
+  }
+  /* ---------  Dashboard css end -------- */
+}

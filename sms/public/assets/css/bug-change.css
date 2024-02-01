@@ -1,0 +1,179 @@
+/* --------- register page ------------- */
+
+.register-section .register-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.register-section .user-register {
+    padding: 70px 40px 0;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+}
+.user-register .direct-login .btn.btn-outline {
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 0;
+    padding: 8px 15px;
+    min-width: auto;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 30px;
+    color: #000000;
+    border: 1px solid #7d7c7c;
+    font-weight: 400;
+    border-radius: 30px;
+}
+.register-section .right-design {
+    background-image: linear-gradient(rgba(141, 125, 244), rgb(81, 56, 238));
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    max-width: 100%;
+}
+.user-register .register-form .fill-data .form-group:nth-child(even) {
+    padding: 0;
+}
+
+/* ------------------- login page --------------- */
+
+.login-section .login-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.login-section .user-login {
+    padding: 70px 40px 0;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+}
+.login-section .direct-login .btn-login .btn.btn-outline {
+    display: inline-block;
+    font-size: 20px;
+    margin: 8px 0;
+    padding: 8px 0;
+    min-width: 450px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px;
+}
+.login-section .signin-form{
+    padding-top: 5px;
+    text-align: left;
+}
+.login-section .signin-form span.line {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #cbcfd7;
+    text-transform: capitalize;
+    line-height: 30px;
+    border-radius: 0;
+    left: calc(23%);
+}
+.login-section .signin-form .login-email {
+    max-width: 450px;
+}
+.login-section .signin-form .login-email .form-group input,
+ .login-section .signin-form .login-phone .form-group input {
+    max-width: 100%;
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: block;
+    margin: 0;
+}
+.login-section .signin-form .login-email .form-group span,
+ .login-section .signin-form .login-phone .form-group span {
+    color: #3521b5;
+    font-size: 18px;
+    text-align: end;
+    display: block;
+    padding: 5px 0 15px 0;
+}
+
+.login-section .right-design {
+    background-image: linear-gradient(rgba(141, 125, 244), rgb(81, 56, 238));
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+/* ------------------- sms history for scroll ---------------- */
+.sms-listbar .sms-list ul {
+    list-style-type: none;
+    padding-left: 0;
+    overflow-y: auto;
+    height: 470px;
+}
+.show-sms .sms-form form {
+    overflow-y: auto;
+    height: 500px;
+}
+.campaigns-listbar, .sms-listbar {
+    max-width: 400px;
+    background-color: #ffffff;
+    /* padding: 0 12px; */
+    width: 100%;
+    border-left: 1px solid #364f6b1a;
+}
+.show-sms .sms-form form .form-group .show-sms-user {
+    display: flex;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body.home .wrapper .property-search-container.type1 {
+    transform: none;
+    left: 0;
+    max-width: 100%;
+    background: url(https://servicestgn.elsnerdev.com/wp-content/uploads/2022/03/image_2022_03_21T08_36_39_211Z.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.wrapper .property-search-container.type1 .property-booking-img {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+.property-search-container.type1 .dt-sc-tabs-container {
+    padding: 0;
+}
+@media screen and (max-width: 991px){
+    .wrapper .property-search-container.type1 .property-booking-img{
+        max-width: 60%;
+    }
+}
+@media screen and (max-width: 991px){
+    .wrapper .property-search-container.type1 .property-booking-img {
+        max-width: 75%;
+    }
+}

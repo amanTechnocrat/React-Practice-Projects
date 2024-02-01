@@ -1,0 +1,87 @@
+body{
+ background-color: rgb(164, 169, 238); 
+}
+.head{
+  text-align: center;
+  text-shadow: 8px;
+  color: rgb(0, 0, 0);
+}
+
+#p{
+color: rgb(35, 214, 50);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 9px;
+  background-color: rgb(2, 8, 0);
+
+}
+li{
+  font-size: larger;
+  display: inline;
+  padding: 25px 10px;
+  margin: 5px 5px 10px;
+}
+li a{
+  text-decoration: none;
+  font-weight: 900;
+  color: white;
+}
+p{
+  font-size: medium;
+  color: black;
+}
+
+.text{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 931px;
+    height: 256px;
+    font-size: 25px;
+}
+.btn{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 32px;
+    background-color: rgb(0, 255, 55);
+    color: rgb(0, 0, 0);
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.btn1{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 32px;
+    background-color: rgb(19, 21, 177);
+    color: rgb(0, 0, 0);
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.co{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.time{
+  position: fixed;
+  left: 92%;
+  top: 15px;
+}
+.grt{
+  margin-top: -16px;
+  font-size: large;
+}
+.abtu{
+  position: fixed;
+  width: 229px;
+  height: 325px;
+  left: 8px;
+  top: 371px;
+}

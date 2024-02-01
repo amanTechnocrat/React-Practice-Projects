@@ -1,0 +1,28 @@
+.btn{
+  color: blue;
+  height: 60px;
+  width: 272px;
+  border-radius: 25px;
+  background-color:rgb(18, 65, 22) ;
+  color: rgb(179, 177, 150);
+  font-size: 25px;
+}
+.c1{
+  display: flex;
+  justify-content: center;
+}
+body{
+  background-color: rgb(187, 175, 240);
+}
+.btn:hover{
+  background-color: rgb(30, 4, 51);
+}
+.time{
+  position: fixed;
+  left: 93%;
+  top: -15px;
+}
+.c2{
+  position: fixed;
+  top: -15px;
+}
